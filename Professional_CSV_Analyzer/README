@@ -1,4 +1,4 @@
-# 🧠 Professional CSV Analyzer v2.0
+#  Professional CSV Analyzer v2.0
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-yellow)
@@ -6,42 +6,36 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Stable-success)
 
-> 🚀 A professional, automated data analysis tool that cleans, analyzes, visualizes, and summarizes your CSV files — in one simple command.
+>  A professional, automated data analysis tool that cleans, analyzes, visualizes, and summarizes your CSV files — in one simple command.
 
----
-
-## ✨ Overview
+##  Overview
 
 **Professional CSV Analyzer v2.0** is a one-stop solution for quick and intelligent data analysis.  
 It automatically performs **data cleaning, correlation visualization, distribution analysis, animated trend visualization**, and **full HTML EDA reporting** — perfect for professionals, data engineers, and analysts.
 
----
-
-## 📸 Demo Preview
+##  Demo Preview
 
 | Correlation Heatmap | Animated Trend |
 |----------------------|----------------|
 | ![Heatmap](correlation_heatmap.png) | ![Animated Trend](animated_trend.gif) |
 
----
+##  Features
 
-## 🧩 Features
-
-✅ **Smart Summary** — automatic overview of data shape, missing values, and column details  
-✅ **Data Cleaning** — removes duplicates & fills missing values with median or “Unknown”  
-✅ **Professional Visualizations**
+ **Smart Summary** — automatic overview of data shape, missing values, and column details  
+ **Data Cleaning** — removes duplicates & fills missing values with median or “Unknown”  
+ **Professional Visualizations**
 - Correlation heatmap  
 - Distribution histograms  
 - Animated trend GIF  
 
-✅ **Auto EDA Report** — full HTML report generated using `ydata_profiling`  
-✅ **Clean Outputs** — saves cleaned CSV and all visuals in your working directory  
+ **Auto EDA Report** — full HTML report generated using `ydata_profiling`  
+ **Clean Outputs** — saves cleaned CSV and all visuals in your working directory  
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
-### 1️⃣ Clone this Repository
+###  Clone this Repository
 ```bash
 git clone https://github.com/GLITCHINvision/Professional_CSV_Analyzer.git
 cd Professional_CSV_Analyzer
@@ -58,10 +52,10 @@ python pro_analyze_csv.py "C:\Users\Hp\Downloads\data.csv"
 
 After execution, the script will generate all results in your current directory.
 
-📁 Output Files
+ Output Files
 FileDescriptioncleaned_data.csvCleaned dataset after removing duplicates & missing valuescorrelation_heatmap.pngVisual heatmap of feature correlationsfeature_distributions.pngDistribution of numerical featuresanimated_trend.gifAnimated trend line for key numeric columnanalysis_report.htmlFull interactive profiling report (HTML)
 
-🧱 Project Structure
+ Project Structure
 Professional_CSV_Analyzer/
 │
 ├── pro_analyze_csv.py          # Main Python analysis script
@@ -72,54 +66,39 @@ Professional_CSV_Analyzer/
 └── analysis_report.html        # Full profiling report
 
 
-📈 Example Output (Console)
-🚀 Loading dataset from: data.csv
+ Example Output (Console)
+ Loading dataset from: data.csv
 
-📊 ----- DATA SUMMARY -----
+ ----- DATA SUMMARY -----
 Shape: (1000, 12)
 Missing Values: 5
 Duplicates: 0
 Numeric Columns: 9
 Categorical Columns: 3
 
-🧹 Data cleaned successfully.
-✅ Correlation heatmap saved
-✅ Animated trend saved
-✅ Full EDA report saved
-✅ Analysis complete!
+ Data cleaned successfully.
+ Correlation heatmap saved
+ Animated trend saved
+ Full EDA report saved
+ Analysis complete!
 
 
-👨‍💻 Author
+ Author
 Raman Sharma
-🎓 Electrical Engineering @ Delhi Technological University
-💼 Passionate about Data, AI, and Software Development
-🌐 GitHub: GLITCHINvision
-💬 LinkedIn: Raman Sharma
+@ Delhi Technological University
+ Passionate about Data, AI, and Software Development
+ GitHub: GLITCHINvision
 
-🏆 License
+ License
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute it with attribution.
+️
 
-⭐ Support
-If you like this project, please give it a ⭐ on GitHub!
-Your support motivates me to build more open-source tools ❤️
-
-💡 Future Improvements
-
+ Future Improvements
 
 Add Streamlit Web App for drag & drop CSV analysis
 
-
-Integrate AI summary (Gemini/GPT) for intelligent insights
-
-
 Add multi-file comparison dashboard
 
-
-
-🧠 Professional CSV Analyzer v2.0 — Fast, Smart, and Elegant Data Insight.
-
----
-
-Would you like me to create a **`Streamlit` dashboard version** of this too (so users can upload CSVs directly on a web page and see instant visuals + reports)? That’s what top GitHub projects use for data visualization demos.
+ Professional CSV Analyzer v2.0 — Fast, Smart, and Elegant Data Insight.
 
