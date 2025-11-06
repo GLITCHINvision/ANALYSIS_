@@ -1,0 +1,27 @@
+#  Professional CSV Analyzer v2.0
+
+A **powerful, automated CSV analysis tool** built with Python that performs **data cleaning, statistical analysis, visualization, and animated trend reporting** — all in one command.  
+Ideal for data engineers, analysts, and professionals who want quick insights with a polished output.
+
+---
+
+##  Features
+
+-  **Automatic Data Summary** — shows dataset shape, missing values, column types, and statistical overview.  
+-  **Smart Cleaning** — removes duplicates and fills missing values intelligently.  
+-  **Visual Analytics**
+  - Correlation heatmap  
+  - Distribution plots  
+  - Animated data trend (`.gif`)
+-  **Automated EDA Report** — generates a professional HTML report using `ydata_profiling`.
+-  **Exports Clean Data** — saves the cleaned dataset for reuse.
+
+---
+
+##  Installation
+pip install pandas numpy matplotlib seaborn ydata-profiling pillow
+
+### 1️ Clone the Repository
+```bash
+git clone https://github.com/GLITCHINvision/Professional_CSV_Analyzer.git
+cd Professional_CSV_Analyzer
